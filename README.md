@@ -3,6 +3,12 @@
 Сервис ленты публикаций с кэшированием и JWT-авторизацией.  
 Тестовое задание — Fullstack-разработчик (Python + Vue.js).
 
+## Скринкаст
+
+[![Фронтенд](https://img.shields.io/badge/YouTube-Фронтенд-red?logo=youtube)](https://www.youtube.com/watch?v=lqkPbSqur78)
+
+[![Бэкенд](https://img.shields.io/badge/YouTube-Бэкенд-red?logo=youtube)](https://www.youtube.com/watch?v=20mOCnJ2Xl8)
+
 ## Стек
 
 - **Backend:** FastAPI, SQLAlchemy (async), PostgreSQL, Redis, Alembic
@@ -153,6 +159,8 @@ cp .env.example .env
 alembic upgrade head
 python -m app.seed          # наполнить тестовыми данными
 uvicorn app.main:app --reload
+
+
 
 # Frontend
 cd frontend
